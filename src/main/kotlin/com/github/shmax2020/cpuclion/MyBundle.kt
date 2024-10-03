@@ -1,4 +1,4 @@
-package org.jetbrains.plugins.template
+package com.github.shmax2020.cpuclion
 
 import com.intellij.DynamicBundle
 import org.jetbrains.annotations.NonNls
