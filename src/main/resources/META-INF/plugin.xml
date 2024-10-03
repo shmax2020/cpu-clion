@@ -1,18 +1,18 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
-    <id>com.github.shmax2020.cpuclion</id>
+    <id>com.tripoli.cpuclion</id>
     <name>cpu-clion</name>
-    <vendor>shmax2020</vendor>
+    <vendor>waipoli/Triseedot</vendor>
 
     <depends>com.intellij.modules.platform</depends>
 
-    <resource-bundle>messages.MyBundle</resource-bundle>
+    <resource-bundle>messages.Bundle</resource-bundle>
 
     <extensions defaultExtensionNs="com.intellij">
-        <toolWindow factoryClass="com.github.shmax2020.cpuclion.toolWindow.MyToolWindowFactory" id="MyToolWindow"/>
+        <toolWindow factoryClass="com.tripoli.cpuclion.toolWindow.CPUWindowFactory" id="CPU"/>
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.shmax2020.cpuclion.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
+        <listener class="com.tripoli.cpuclion.listeners.MyApplicationActivationListener" topic="com.intellij.openapi.application.ApplicationActivationListener"/>
     </applicationListeners>
 </idea-plugin>
