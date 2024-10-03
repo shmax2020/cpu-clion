@@ -10,6 +10,8 @@
 
     <extensions defaultExtensionNs="com.intellij">
         <toolWindow factoryClass="com.tripoli.cpuclion.toolWindow.CPUWindowFactory" id="CPU"/>
+<!--        <fileEditorProvider implementation="com.tripoli.cpuclion.toolWindow.MyFileEditorProvider"/>-->
+        <fileEditorProvider implementation="com.tripoli.cpuclion.toolWindow.SettingsEditorProvider"/>
     </extensions>
 
     <applicationListeners>
